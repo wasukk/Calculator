@@ -1,0 +1,97 @@
+ /* .calculator{ */
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+    /* width: 500px; */
+    /* height: auto; */
+    /* background-color: cadetblue; */
+    /* margin: 20px auto; */
+    /* margin-left: 450px; */
+    /* margin-right:450px ; */
+/* } */
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.calculator button{
+    width: 80px;
+    height: 40px;
+    /* padding: 10px; */
+    margin: 2px;
+    box-shadow: rgba(189, 186, 185, 0.555) 0px 7px 29px 0px;
+}
+.fa-backspace{
+    color:white;
+}
+.fa-backspace :hover{
+    color:red;
+}
+#result{
+    border-top: none;
+    height: 50px;
+    font-size: 40px;
+    width: 332px;
+    font-weight: bold;
+}
+#digits{
+    margin-top: 20px;
+    border-bottom: none;
+    height: 50px;
+    font-size: 35px;
+    width: 332px;
+    color: rgb(0, 85, 241);
+}
+input:focus {
+    /* background-color: yellow; */
+    border-width: 0;
+    /* border: none; */
+    /* border-color:red; */
+    border: 2px solid rgb(8, 0, 0);
+    outline: none;
+    color: rgb(46, 46, 231);
+    
+  }
+.calculator button{
+    font-weight: bold;
+}
+.heading{
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 350px){
+    #result{
+        border-top: none;
+        height: 50px;
+        font-size: 40px;
+        width: 280px;
+        font-weight: bold;
+    }
+    #digits{
+        margin-top: 20px;
+        border-bottom: none;
+        height: 50px;
+        font-size: 35px;
+        width: 280px;
+        color: rgb(0, 85, 241);
+    }
+}
+@media screen and (max-width: 280px){
+    #result{
+        border-top: none;
+        height: 50px;
+        font-size: 40px;
+        width: 260px;
+        font-weight: bold;
+    }
+    #digits{
+        margin-top: 20px;
+        border-bottom: none;
+        height: 50px;
+        font-size: 35px;
+        width: 260px;
+        color: rgb(0, 85, 241);
+    }
+}
+
